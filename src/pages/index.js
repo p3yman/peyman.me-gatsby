@@ -6,6 +6,7 @@ import PartAbout from "../components/About"
 import PartSkills from "../components/Skills"
 import PartExperience from "../components/Experience"
 import PartWorks from "../components/Works"
+import Footer from "../components/Footer"
 
 const Index = () => (
   <div>
@@ -14,6 +15,7 @@ const Index = () => (
     <PartSkills />
     <PartExperience />
     <PartWorks />
+    <Footer />
   </div>
 )
 

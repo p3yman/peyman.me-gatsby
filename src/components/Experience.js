@@ -7,11 +7,7 @@ export default () => (
     <div className="title">EXPERIENCE</div>
     <div className="content experiences">
       {experiences.map(item => (
-        <ExperienceItem
-          itemTitle={item.title}
-          itemDesc={item.desc}
-          itemTime={item.time}
-        />
+        <ExperienceItem item={item} />
       ))}
     </div>
   </div>

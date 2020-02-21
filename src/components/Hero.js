@@ -8,10 +8,10 @@ export default () => (
         products that are beautiful from the inside out.
       </h1>
       <div className="actions">
-        <a href="#" className="btn">
+        <a href="mailto:hi@peyman.me" className="btn">
           Say hi
         </a>
-        <a href="#" className="btn">
+        <a href="/" className="btn">
           Resume
         </a>
       </div>

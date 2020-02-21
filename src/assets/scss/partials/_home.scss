@@ -75,7 +75,8 @@ a.btn {
       margin-top: -7px;
     }
 
-    &.experiences {
+    &.experiences,
+    &.works {
       flex-direction: column;
     }
 
@@ -100,6 +101,7 @@ a.btn {
     justify-content: space-between;
   }
   .title {
+    font-size: 18px;
     font-weight: 600;
     margin-bottom: 8px;
   }
@@ -110,4 +112,43 @@ a.btn {
   .desc {
     font-size: 14px;
   }
+}
+
+/// Works
+.work-item {
+  margin-bottom: 40px;
+
+  header {
+    display: flex;
+    justify-content: space-between;
+  }
+  .title {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 8px;
+  }
+  .links {
+    a:link {
+      font-size: 14px;
+      font-weight: 700;
+      font-family: "Ubuntu Mono", monospace;
+      margin-left: 10px;
+    }
+  }
+  .desc {
+    font-size: 14px;
+    line-height: 22px;
+  }
+}
+
+/// Footer
+#footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 50px 20px;
+  font-family: "Ubuntu Mono", monospace;
+  font-size: 13px;
+  color: #74747e;
+  border-top: 1px solid #eee;
 }
