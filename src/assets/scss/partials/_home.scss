@@ -3,7 +3,7 @@
  */
 
 $color-gray: #444452;
-$color-blue: #1755f6;
+$color-primary: #1755f6;
 
 body {
   color: $color-gray;
@@ -40,7 +40,7 @@ body {
 
 a.btn {
   display: inline-flex;
-  background-color: $color-blue;
+  background-color: $color-primary;
   border: 1px solid #ffffff;
   box-shadow: 4px 4px 0 0 rgba(0, 0, 0, 0.15);
   padding: 10px 24px;
@@ -62,7 +62,7 @@ a.btn {
     margin-right: 70px;
     text-align: right;
     font-weight: 600;
-    color: $color-blue;
+    color: $color-primary;
     letter-spacing: 4px;
   }
   .content {

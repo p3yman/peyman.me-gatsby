@@ -15,6 +15,13 @@ html {
   box-sizing: inherit;
 }
 
+::selection {
+  background: #0ad4a9;
+}
+::-moz-selection {
+  background: #0ad4a9;
+}
+
 .container {
   width: 100%;
   padding: 0 15px;

@@ -6,8 +6,8 @@ export default () => (
   <div className="section">
     <div className="title">WORKS</div>
     <div className="content works">
-      {works.map(item => (
-        <WorkItem item={item} />
+      {works.map((item, index) => (
+        <WorkItem item={item} key={`work-${index}`} />
       ))}
     </div>
   </div>

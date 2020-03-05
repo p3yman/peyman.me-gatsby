@@ -1,22 +1,21 @@
 import React from "react"
 
 // Parts
+import Layout from "../components/Layout"
 import PartHero from "../components/Hero"
 import PartAbout from "../components/About"
 import PartSkills from "../components/Skills"
 import PartExperience from "../components/Experience"
 import PartWorks from "../components/Works"
-import Footer from "../components/Footer"
 
 const Index = () => (
-  <div>
+  <Layout>
     <PartHero />
     <PartAbout />
     <PartSkills />
     <PartExperience />
     <PartWorks />
-    <Footer />
-  </div>
+  </Layout>
 )
 
 export default Index

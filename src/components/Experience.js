@@ -6,8 +6,8 @@ export default () => (
   <div className="section">
     <div className="title">EXPERIENCE</div>
     <div className="content experiences">
-      {experiences.map(item => (
-        <ExperienceItem item={item} />
+      {experiences.map((item, index) => (
+        <ExperienceItem item={item} key={`work-${index}`} />
       ))}
     </div>
   </div>
