@@ -1,0 +1,48 @@
+#header {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 5000;
+}
+#header-content {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 0;
+}
+
+ul#menu {
+  display: flex;
+  list-style: none;
+
+  li {
+    margin-right: 10px;
+
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+
+  a.btn {
+    border: 1px solid $color-gray;
+    box-shadow: none;
+    background: transparent;
+    border-radius: 3px;
+    font-size: 14px;
+  }
+
+  a {
+    display: inline-flex;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: none;
+    font-size: 14px;
+    color: $color-gray;
+    padding: 10px;
+
+    &:hover {
+      color: $color-primary;
+      border-color: $color-primary;
+    }
+  }
+}
