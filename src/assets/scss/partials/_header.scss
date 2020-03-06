@@ -60,24 +60,3 @@ ul#menu {
     }
   }
 }
-
-a#resume-btn {
-  display: inline-flex;
-  border: 1px solid $color-gray;
-  box-shadow: none;
-  background: transparent;
-  border-radius: 3px;
-  font-size: 14px;
-  color: $color-gray;
-  padding: 10px 16px;
-  text-decoration: none;
-  font-family: $font-mono;
-  text-transform: Uppercase;
-  transition: all 0.3s;
-
-  &:hover {
-    color: #fff;
-    background-color: $color-primary;
-    border-color: $color-primary;
-  }
-}

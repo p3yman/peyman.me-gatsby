@@ -1,6 +1,7 @@
 import React from "react"
 import { Link } from "gatsby"
 import Logo from "./../assets/images/logo.svg"
+import Resume from "./../assets/files/Peyman-Eskandari-Resume.pdf"
 
 export default () => (
   <header id="header">
@@ -36,9 +37,14 @@ export default () => (
             </Link>
           </li>
           <li>
-            <Link to="/" id="resume-btn">
+            <a
+              href={Resume}
+              className="btn"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <span data-hover="Resume">Resume</span>
-            </Link>
+            </a>
           </li>
         </ul>
       </div>

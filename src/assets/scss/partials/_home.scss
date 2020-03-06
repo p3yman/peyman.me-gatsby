@@ -37,16 +37,23 @@ body {
 
 a.btn {
   display: inline-flex;
-  background-color: $color-primary;
-  border: 1px solid #ffffff;
-  box-shadow: 4px 4px 0 0 rgba(0, 0, 0, 0.15);
-  padding: 10px 16px;
-  line-height: 1;
-  color: #ffffff;
-  text-decoration: none;
+  border: 1px solid $color-primary;
+  box-shadow: none;
+  background: transparent;
+  border-radius: 3px;
   font-size: 14px;
-  font-weight: 600;
-  text-transform: uppercase;
+  color: $color-primary;
+  padding: 10px 16px;
+  text-decoration: none;
+  font-family: $font-mono;
+  text-transform: Uppercase;
+  transition: all 0.3s;
+  font-weight: 700;
+
+  &:hover {
+    color: #fff;
+    background-color: $color-primary;
+  }
 }
 
 .section {
@@ -58,7 +65,8 @@ a.btn {
     flex-shrink: 0;
     margin-right: 70px;
     text-align: right;
-    font-weight: 600;
+    font-family: $font-mono;
+    font-weight: 700;
     color: $color-primary;
     letter-spacing: 4px;
   }
