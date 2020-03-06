@@ -11,9 +11,6 @@ export default () => (
         <a href="mailto:hi@peyman.me" className="btn">
           Say hi
         </a>
-        <a href="/" className="btn">
-          Resume
-        </a>
       </div>
     </div>
   </div>
