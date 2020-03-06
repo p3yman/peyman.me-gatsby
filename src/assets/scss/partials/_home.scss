@@ -8,17 +8,20 @@ body {
 
 /// Hero
 #hero {
-  height: 95vh;
-  display: flex;
-  position: relative;
   border-bottom: 1px solid #eee;
-  align-items: center;
   margin: 0 0 100px 0;
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    height: 95vh;
+    justify-content: center;
+  }
 
   h1 {
     max-width: 770px;
-    font-size: 40px;
-    line-height: 60px;
+    font-size: 2.5rem;
+    line-height: 3.75rem;
     font-weight: 300;
     margin-bottom: 40px;
 
@@ -31,6 +34,18 @@ body {
 
     a {
       margin-right: 10px;
+    }
+  }
+
+  @media (max-width: 768px) {
+    margin-bottom: 30px;
+
+    .container {
+      height: 70vh;
+    }
+    h1 {
+      font-size: 2rem;
+      line-height: 3rem;
     }
   }
 }
@@ -49,6 +64,7 @@ a.btn {
   text-transform: Uppercase;
   transition: all 0.3s;
   font-weight: 700;
+  white-space: nowrap;
 
   &:hover {
     color: #fff;
@@ -93,6 +109,25 @@ a.btn {
       font-size: 14px;
       margin-bottom: 15px;
       font-family: $font-mono;
+    }
+  }
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+    padding: 30px;
+
+    > .title {
+      text-align: left;
+      margin: 0 0 20px;
+    }
+
+    .content {
+      flex-wrap: wrap;
+
+      .col {
+        width: 50%;
+        margin-bottom: 20px;
+      }
     }
   }
 }
@@ -156,4 +191,6 @@ a.btn {
   font-size: 13px;
   color: #74747e;
   border-top: 1px solid #eee;
+  text-align: center;
+  line-height: 1.6;
 }

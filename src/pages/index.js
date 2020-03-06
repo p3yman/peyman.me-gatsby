@@ -11,10 +11,12 @@ import PartWorks from "../components/Works"
 const Index = () => (
   <Layout>
     <PartHero />
-    <PartAbout />
-    <PartSkills />
-    <PartExperience />
-    <PartWorks />
+    <div className="container">
+      <PartAbout />
+      <PartSkills />
+      <PartExperience />
+      <PartWorks />
+    </div>
   </Layout>
 )
 
