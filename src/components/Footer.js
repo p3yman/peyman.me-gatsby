@@ -3,11 +3,9 @@ import React from "react"
 export default () => (
   <div id="footer">
     <div className="copyright">
-      Designed & Developed with{" "}
-      <span role="img" aria-label="heart">
-        💙
-      </span>{" "}
-      by Peyman Eskandari
+      {new Date().getFullYear()}. Inspired from everyone and developed by
+      copying from tutorials by Peyman <span role="img">😬</span>
+      <br />
     </div>
   </div>
 )

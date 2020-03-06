@@ -73,4 +73,11 @@ a#resume-btn {
   text-decoration: none;
   font-family: $font-mono;
   text-transform: Uppercase;
+  transition: all 0.3s;
+
+  &:hover {
+    color: #fff;
+    background-color: $color-primary;
+    border-color: $color-primary;
+  }
 }
