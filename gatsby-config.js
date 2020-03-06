@@ -29,7 +29,7 @@ module.exports = {
     description:
       "Hi, I’m Peyman, a front-end <developer /> focused on building products that are beautiful from the inside out.",
     url: "https://peyman.me",
-    image: "src/assets/images/seo-image.png",
+    image: "/seo-image.png",
     twitterUsername: "@peyman3d",
   },
 }
