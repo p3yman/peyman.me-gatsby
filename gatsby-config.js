@@ -26,9 +26,10 @@ module.exports = {
   siteMetadata: {
     title: "Peyman Eskandari",
     titleTemplate: "%s | Front-End Developer",
-    description: "",
+    description:
+      "Hi, I’m Peyman, a front-end <developer /> focused on building products that are beautiful from the inside out.",
     url: "https://peyman.me",
-    image: "",
+    image: "src/assets/images/seo-image.png",
     twitterUsername: "@peyman3d",
   },
 }
