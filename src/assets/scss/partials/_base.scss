@@ -2,7 +2,7 @@
  * Base styles
  */
 body {
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: $font;
 }
 
 html {
@@ -20,6 +20,16 @@ html {
 }
 ::-moz-selection {
   background: #0ad4a9;
+}
+
+input,
+a,
+button {
+  &:active,
+  &:focus {
+    outline: 0;
+    box-shadow: 0 0 0 3px rgba($color-primary, 0.2);
+  }
 }
 
 .container {

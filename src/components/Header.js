@@ -1,4 +1,5 @@
 import React from "react"
+import { Link } from "gatsby"
 import Logo from "./../assets/images/logo.svg"
 
 export default () => (
@@ -10,24 +11,34 @@ export default () => (
         </div>
         <ul id="menu">
           <li>
-            <a href="#">About</a>
+            <Link to="/" className="link">
+              <span data-hover="About">About</span>
+            </Link>
           </li>
           <li>
-            <a href="#">Playlists</a>
+            <Link to="/" className="link">
+              <span data-hover="Playlists">Playlists</span>
+            </Link>
           </li>
           <li>
-            <a href="#">Newsletter</a>
+            <Link to="/" className="link">
+              <span data-hover="Newsletter">Newsletter</span>
+            </Link>
           </li>
           <li>
-            <a href="#">Uses</a>
+            <Link to="/" className="link">
+              <span data-hover="Uses">Uses</span>
+            </Link>
           </li>
           <li>
-            <a href="#">Contact</a>
+            <Link to="/" className="link">
+              <span data-hover="Contact">Contact</span>
+            </Link>
           </li>
           <li>
-            <a href="#" className="btn">
-              Resume
-            </a>
+            <Link to="/" id="resume-btn">
+              <span data-hover="Resume">Resume</span>
+            </Link>
           </li>
         </ul>
       </div>

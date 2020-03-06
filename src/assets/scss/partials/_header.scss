@@ -23,26 +23,54 @@ ul#menu {
     }
   }
 
-  a.btn {
-    border: 1px solid $color-gray;
-    box-shadow: none;
-    background: transparent;
-    border-radius: 3px;
-    font-size: 14px;
-  }
-
-  a {
+  a.link {
     display: inline-flex;
     text-decoration: none;
-    font-weight: bold;
-    text-transform: none;
+    font-weight: 400;
+    text-transform: Uppercase;
     font-size: 14px;
     color: $color-gray;
-    padding: 10px;
+    margin: 10px 5px;
+    overflow: hidden;
+    padding: 0 5px;
+    font-family: $font-mono;
+
+    span {
+      position: relative;
+      display: inline-flex;
+      transition: transform 0.3s;
+      font-weight: 400;
+
+      &:before {
+        position: absolute;
+        top: 100%;
+        content: attr(data-hover);
+        font-weight: 700;
+        transform: translate3d(0, 0, 0);
+      }
+    }
 
     &:hover {
       color: $color-primary;
       border-color: $color-primary;
+
+      span {
+        transform: translateY(-100%);
+      }
     }
   }
+}
+
+a#resume-btn {
+  display: inline-flex;
+  border: 1px solid $color-gray;
+  box-shadow: none;
+  background: transparent;
+  border-radius: 3px;
+  font-size: 14px;
+  color: $color-gray;
+  padding: 10px 16px;
+  text-decoration: none;
+  font-family: $font-mono;
+  text-transform: Uppercase;
 }

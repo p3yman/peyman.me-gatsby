@@ -2,9 +2,6 @@
  * Home page
  */
 
-$color-gray: #444452;
-$color-primary: #1755f6;
-
 body {
   color: $color-gray;
 }
@@ -43,7 +40,7 @@ a.btn {
   background-color: $color-primary;
   border: 1px solid #ffffff;
   box-shadow: 4px 4px 0 0 rgba(0, 0, 0, 0.15);
-  padding: 10px 24px;
+  padding: 10px 16px;
   line-height: 1;
   color: #ffffff;
   text-decoration: none;
@@ -87,7 +84,7 @@ a.btn {
     .item {
       font-size: 14px;
       margin-bottom: 15px;
-      font-family: "Ubuntu Mono", monospace;
+      font-family: $font-mono;
     }
   }
 }
