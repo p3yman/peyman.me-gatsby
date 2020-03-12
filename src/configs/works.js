@@ -1,34 +1,29 @@
 export default [
   {
-    title: "Weder",
+    title: "Laravel Share",
     desc:
-      "Small React project created during an interview process to browse and search surf videos via the YouTube API.",
-    url: "#",
-    source: "#",
-    tags: ["React", "Node.js", "MongoDB"],
+      "With Laravel Share you can share any data through a request to use later. You should consider it as an array that are available everywhere. I mean EVERYWHERE! From Service Provider to routes, middlewares, controllers and views.",
+    source: "https://github.com/peyman3d/laravel-share",
+    tags: ["PHP", "Laravel"],
   },
   {
-    title: "Weder",
+    title: "Koochak",
     desc:
-      "Small React project created during an interview process to browse and search surf videos via the YouTube API.",
-    url: "#",
-    source: "#",
-    tags: ["React", "Node.js", "MongoDB"],
+      "Koochak is a minimal and lightweight CSS framework, optimized to be easily used on small open-source projects. Default markups are used to select elements and apply a number or minimalist styles.",
+    source: "https://github.com/peyman3d/koochak",
+    tags: ["SASS", "CSS", "UI"],
   },
   {
-    title: "Weder",
+    title: "CSSHelpers",
     desc:
-      "Small React project created during an interview process to browse and search surf videos via the YouTube API.",
-    url: "#",
-    source: "#",
-    tags: ["React", "Node.js", "MongoDB"],
+      "A library of CSS helpers to use in templates. It's kinda like what Tailwind does now.",
+    source: "https://github.com/peyman3d/csshelpers",
+    tags: ["SASS", "CSS", "UI"],
   },
   {
-    title: "Weder",
-    desc:
-      "Small React project created during an interview process to browse and search surf videos via the YouTube API.",
-    url: "#",
-    source: "#",
-    tags: ["React", "Node.js", "MongoDB"],
+    title: "Frontier",
+    desc: "This is a workflow for Front-End projects, using Gulp.js",
+    source: "https://github.com/peyman3d/frontier",
+    tags: ["Gulp.js"],
   },
 ]

@@ -5,7 +5,6 @@ const WorkItem = props => (
     <header>
       <div className="title">{props.item.title}</div>
       <div className="links">
-        <a href={props.item.url}>View Project</a>
         <a href={props.item.source}>Source</a>
       </div>
     </header>

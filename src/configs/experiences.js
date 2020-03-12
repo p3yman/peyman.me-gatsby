@@ -1,12 +1,12 @@
 export default [
-  {
-    title: "RabbitFox",
-    time: "November 2019 - Present",
-    desc: "Senior Front-End Developer",
-  },
+  // {
+  //   title: "RabbitFox",
+  //   time: "November 2019 - Present",
+  //   desc: "Senior Front-End Developer",
+  // },
   {
     title: "YasnaTeam",
-    time: "August 2018 - November 2019",
+    time: "August 2018 - Present",
     desc: "Senior Developer & Designer",
   },
   {

@@ -1,7 +1,6 @@
 import React from "react"
-import { Link } from "gatsby"
+// import { Link } from "gatsby"
 import Logo from "./../assets/images/logo.svg"
-import Resume from "./../assets/files/Peyman-Eskandari-Resume.pdf"
 
 export default () => (
   <header id="header">
@@ -10,7 +9,7 @@ export default () => (
         <div className="logo">
           <img src={Logo} alt="Peyman's Logo" width="40" />
         </div>
-        <ul id="menu">
+        {/* <ul id="menu">
           <li>
             <Link to="/" className="link">
               <span data-hover="About">About</span>
@@ -46,7 +45,7 @@ export default () => (
               <span data-hover="Resume">Resume</span>
             </a>
           </li>
-        </ul>
+        </ul> */}
       </div>
     </div>
   </header>

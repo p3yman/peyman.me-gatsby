@@ -1,4 +1,5 @@
 import React from "react"
+import Resume from "./../assets/files/Peyman-Eskandari-Resume.pdf"
 
 export default () => (
   <div id="hero">
@@ -10,6 +11,14 @@ export default () => (
       <div className="actions">
         <a href="mailto:hi@peyman.me" className="btn">
           Say hi
+        </a>
+        <a
+          href={Resume}
+          className="btn"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <span data-hover="Resume">Resume</span>
         </a>
       </div>
     </div>
