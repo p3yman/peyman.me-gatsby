@@ -9,7 +9,7 @@ module.exports = {
     "gatsby-plugin-sass",
     "gatsby-plugin-react-helmet",
     {
-      resolve: `gatsby-plugin-manifest`,
+      resolve: "gatsby-plugin-manifest",
       options: {
         name: "Peyman Eskandari| Front-End Developer",
         short_name: "Peyman Eskandari",
@@ -18,7 +18,15 @@ module.exports = {
         theme_color: "#1755f6",
         display: "standalone",
         icon: "src/assets/images/icon.png",
-        crossOrigin: `use-credentials`,
+        crossOrigin: "use-credentials",
+      },
+    },
+    {
+      resolve: "gatsby-plugin-google-analytics",
+      options: {
+        trackingId: process.env.GOOGLE_ANALYICS_TRACKING_ID || "none",
+        head: true,
+        defer: false,
       },
     },
   ],
