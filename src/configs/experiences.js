@@ -7,7 +7,7 @@ export default [
   {
     title: "YasnaTeam",
     time: "August 2018 - Present",
-    desc: "Senior Developer & Designer",
+    desc: "Senior Front-End Developer",
   },
   {
     title: "Poostechin ltd.",
