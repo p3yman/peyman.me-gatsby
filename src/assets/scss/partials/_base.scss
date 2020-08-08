@@ -2,7 +2,7 @@
  * Base styles
  */
 body {
-  font-family: $font;
+  font-family: $font-default;
 }
 
 html {
@@ -39,30 +39,94 @@ b {
 
 .container {
   width: 100%;
+  max-width: 1200px;
   padding: 0 15px;
   margin: 0 auto;
-}
 
-@media (min-width: 576px) {
-  .container {
-    max-width: 540px;
-  }
-}
-
-@media (min-width: 768px) {
-  .container {
+  &.sm {
     max-width: 720px;
   }
 }
 
-@media (min-width: 992px) {
-  .container {
-    max-width: 960px;
-  }
+h1.page-title {
+  color: #161718;
+  font-size: 3.875em;
+  font-weight: 700;
+  font-family: $font-merriweather;
+  padding-bottom: 50px;
 }
 
-@media (min-width: 1200px) {
-  .container {
-    max-width: 1140px;
+.content {
+  p {
+    font-family: $font-default;
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 1.8;
+    margin-bottom: 28px;
+    color: #2d2d2d;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    margin-top: 56px;
+    margin-bottom: 15px;
+    font-weight: 700;
+    font-family: $font-merriweather;
+    color: #000;
+    line-height: 1.7;
+  }
+  h1 {
+    font-size: 40px;
+  }
+  h2 {
+    font-size: 28px;
+  }
+  h3 {
+    font-size: 24px;
+  }
+  h4 {
+    font-size: 16px;
+  }
+  h5 {
+    font-size: 13px;
+  }
+  h5 {
+    font-size: 12px;
+  }
+
+  hr {
+    margin: 40px 0;
+    border: 0;
+    border-top: $border;
+  }
+
+  ul,
+  ol {
+    padding-left: 32px;
+    margin: 20px 0;
+
+    ul,
+    ol {
+      margin-top: 0;
+    }
+
+    li + li {
+      margin-top: 5px;
+    }
+
+    p {
+      margin-bottom: 10px;
+    }
+  }
+
+  blockquote {
+    border-left: 4px solid #dddddd;
+    padding: 0 15px;
+    color: #777777;
+    margin: 20px 40px 20px 40px;
   }
 }
