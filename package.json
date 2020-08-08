@@ -7,7 +7,7 @@
   "scripts": {
     "build": "gatsby build",
     "deploy": "gatsby build && gh-pages -d public -r https://github.com/p3yman/p3yman.github.io.git -b master",
-    "develop": "gatsby develop",
+    "develop": "env-cmd gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
     "start": "npm run develop",
     "serve": "gatsby serve",
@@ -15,11 +15,14 @@
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
   },
   "dependencies": {
+    "dayjs": "^1.8.32",
     "gatsby": "^2.24.31",
     "gatsby-plugin-google-analytics": "^2.3.13",
     "gatsby-plugin-manifest": "^2.4.22",
     "gatsby-plugin-react-helmet": "^3.3.10",
     "gatsby-plugin-sass": "^2.3.12",
+    "gatsby-source-filesystem": "^2.3.24",
+    "gatsby-transformer-remark": "^2.8.28",
     "gh-pages": "^3.1.0",
     "node-sass": "^4.14.1",
     "react": "^16.13.1",
@@ -27,6 +30,7 @@
     "react-helmet": "^6.1.0"
   },
   "devDependencies": {
+    "env-cmd": "^10.1.0",
     "prettier": "^2.0.5"
   },
   "repository": {

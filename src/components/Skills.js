@@ -1,4 +1,4 @@
-import React from "react"
+import React from "react";
 
 export default () => (
   <div className="section">
@@ -13,7 +13,7 @@ export default () => (
         <div className="item">MySQL</div>
       </div>
       <div className="col">
-        {/* <div className="item">React / Gatsby</div> */}
+        <div className="item">React</div>
         <div className="item">Vue.js</div>
         <div className="item">Node.js</div>
         <div className="item">Express</div>
@@ -35,4 +35,4 @@ export default () => (
       </div>
     </div>
   </div>
-)
+);
