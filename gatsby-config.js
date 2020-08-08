@@ -41,7 +41,16 @@ module.exports = {
         // GitHub Flavored Markdown mode (default: true)
         gfm: true,
         // Plugins configs
-        plugins: [],
+        plugins: [
+          "gatsby-remark-relative-images",
+          {
+            resolve: "gatsby-remark-images",
+            options: {
+              maxWidth: 720,
+              linkImagesToOriginal: false,
+            },
+          },
+        ],
       },
     },
     {
@@ -51,6 +60,7 @@ module.exports = {
         path: `${__dirname}/src/posts/`,
       },
     },
+    "gatsby-plugin-sharp",
   ],
 
   siteMetadata: {

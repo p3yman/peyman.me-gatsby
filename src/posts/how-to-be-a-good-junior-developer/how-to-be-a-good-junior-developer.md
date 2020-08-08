@@ -6,6 +6,8 @@ tags: developer, career, work, team
 cover_image: https://dev-to-uploads.s3.amazonaws.com/i/km7o4tjo1g9nq0jm0t6n.jpeg
 ---
 
+![How to be a good junior developer?](./cover.jpeg)
+
 I know that being junior, mid-level, senior, or team lead is something based on the environment or the team you're working with. I maybe am a senior developer on my team but I'm sure that I'm just a junior in comparison to a lot of great developers who build tools that we use to call ourselves as such. We all talk about how much we love to learn new things. That should mean that we always love to be junior in something and climb up to the top on that subject.
 
 In my years of experience, I had the privilege of working with some awesome junior developers who taught me a lot about work and life. Because of my love of teaching, I would be in a position to learn a lot from them, and because of them. So, I thought this is a good time to talk about a good junior developer.
