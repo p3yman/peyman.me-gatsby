@@ -22,6 +22,7 @@
     "gatsby-plugin-react-helmet": "^3.3.10",
     "gatsby-plugin-sass": "^2.3.12",
     "gatsby-plugin-sharp": "^2.6.25",
+    "gatsby-plugin-sitemap": "^2.4.11",
     "gatsby-remark-images": "^3.3.25",
     "gatsby-remark-prismjs": "^3.5.10",
     "gatsby-remark-relative-images": "^0.3.0",
