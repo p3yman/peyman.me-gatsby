@@ -102,5 +102,6 @@ module.exports = {
     url: "https://peyman.me",
     siteUrl: "https://peyman.me",
     image: "/seo-image.png",
+    twitterUsername: "@peyman3d",
   },
 };
