@@ -3,7 +3,7 @@
  */
 .blog-item {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: space-between;
   padding: 20px 0;
   border-bottom: $border;
@@ -19,6 +19,7 @@
     font-weight: 700;
     text-decoration: none;
     color: $color-gray;
+    flex: 1;
 
     &:hover {
       color: $color-primary;
