@@ -15,13 +15,14 @@
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
   },
   "dependencies": {
-    "dayjs": "^1.8.32",
-    "gatsby": "^2.24.31",
+    "dayjs": "^1.8.33",
+    "gatsby": "^2.24.47",
     "gatsby-plugin-google-analytics": "^2.3.13",
-    "gatsby-plugin-manifest": "^2.4.22",
+    "gatsby-plugin-manifest": "^2.4.23",
     "gatsby-plugin-react-helmet": "^3.3.10",
+    "gatsby-plugin-robots-txt": "^1.5.1",
     "gatsby-plugin-sass": "^2.3.12",
-    "gatsby-plugin-sharp": "^2.6.25",
+    "gatsby-plugin-sharp": "^2.6.27",
     "gatsby-plugin-sitemap": "^2.4.11",
     "gatsby-remark-images": "^3.3.25",
     "gatsby-remark-prismjs": "^3.5.10",
