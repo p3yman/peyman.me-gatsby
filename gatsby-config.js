@@ -89,7 +89,14 @@ module.exports = {
       resolve: "gatsby-source-filesystem",
       options: {
         name: "pages",
-        path: `${__dirname}/src/posts/`,
+        path: `${__dirname}/src/blog/`,
+      },
+    },
+    {
+      resolve: "gatsby-source-filesystem",
+      options: {
+        name: "newsletter",
+        path: `${__dirname}/src/newsletter/`,
       },
     },
     "gatsby-plugin-sharp",
