@@ -9,7 +9,7 @@ tags: vercel, cli, redirects, deploy
 
 URLs could be long. Very long. When you have a blog, you try to create the URLs with meaningful sentences like `working-with-new-suspense-system-in-react-17`. It actually is a good title for the SEO matters but it's a real bummer to share. It's way too long to be transferred easily and quite ugly in full address:
 
-https://peyman.me/blog/working-with-new-suspense-system-in-react-17
+https://someawesomesite.com/blog/working-with-new-suspense-system-in-react-17
 
 But there should be a way between choosing that or something like `react-17-suspense`. Actually, there is a simple way when you use something like Vercel or Netlify. These services provide a way to help you redirect from an internal path to another URL. The target could be either internal or external. 
 
