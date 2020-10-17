@@ -1,0 +1,6 @@
+{
+  "redirects": [
+    { "source": "/vercel-redirects", "destination": "/blog/url-shortener-using-vercel-redirects" },
+    { "source": "/gh", "destination": "https://github.com/p3yman" }
+  ]
+}
