@@ -104,7 +104,7 @@ module.exports = {
 
   siteMetadata: {
     title: "Peyman Eskandari",
-    titleTemplate: "%s | Front-End Developer",
+    titleTemplate: "%s | Peyman Eskandari",
     description:
       "Hi, I’m Peyman, a front-end <developer /> focused on building products that are beautiful from the inside out.",
     url: "https://peyman.me",

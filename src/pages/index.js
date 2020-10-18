@@ -1,4 +1,5 @@
 import React from "react";
+import { Helmet } from "react-helmet";
 
 // Parts
 import Layout from "../components/Layout";
@@ -10,6 +11,10 @@ import PartWorks from "../components/Works";
 
 const Index = () => (
   <Layout>
+    <Helmet titleTemplate="%s | Front-End Developer">
+      <title>Peyman eskandari</title>
+    </Helmet>
+
     <div className="container sm">
       <PartHero />
       <PartAbout />

@@ -1,5 +1,6 @@
 import React from "react";
 import { Link, graphql, useStaticQuery } from "gatsby";
+import { Helmet } from "react-helmet";
 import dayjs from "dayjs";
 
 import Layout from "../components/Layout";
@@ -38,6 +39,11 @@ const Blog = () => {
 
   return (
     <Layout>
+      <Helmet>
+        <title>Blog</title>
+        <meta name="description" content="Peyman Eskandari Blog" />
+      </Helmet>
+
       <div className="container sm">
         <h1 className="page-title">Blog.</h1>
         <div className="blog-items">{renderedPosts}</div>
