@@ -1,22 +1,17 @@
 export default [
-  // {
-  //   title: "RabbitFox",
-  //   time: "November 2019 - Present",
-  //   desc: "Senior Front-End Developer",
-  // },
   {
     title: "YasnaTeam",
-    time: "August 2018 - Present",
+    time: "August 2018 - September 2020",
     desc: "Senior Front-End Developer",
+  },
+  {
+    title: "Freelancer",
+    time: "April 2016 - Feburary 2018",
+    desc: "UI Designer & Web Developer",
   },
   {
     title: "Poostechin ltd.",
     time: "November 2013 - March 2016",
-    desc: "UI Designer & Web Developer",
-  },
-  {
-    title: "Freelancer",
-    time: "March 2008 - July 2018",
     desc: "UI Designer & Web Developer",
   },
   {

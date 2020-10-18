@@ -13,25 +13,23 @@ export default () => (
         <div className="item">MySQL</div>
       </div>
       <div className="col">
-        <div className="item">React</div>
         <div className="item">Vue.js</div>
+        <div className="item">React</div>
         <div className="item">Node.js</div>
         <div className="item">Express</div>
         <div className="item">Laravel</div>
         <div className="item">Wordpress</div>
       </div>
       <div className="col">
-        {/* <div className="item">Bash</div> */}
         <div className="item">Git</div>
         <div className="item">Gulp</div>
-        {/* <div className="item">Webpack</div> */}
         <div className="item">MongoDB</div>
         <div className="item">Postman</div>
       </div>
       <div className="col">
         <div className="item">Sketch</div>
         <div className="item">Adobe XD</div>
-        <div className="item">Figma</div>
+        <div className="item">Photoshop</div>
       </div>
     </div>
   </div>
