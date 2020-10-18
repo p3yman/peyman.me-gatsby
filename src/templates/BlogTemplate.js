@@ -1,5 +1,6 @@
 import React from "react";
 import { graphql } from "gatsby";
+import { Helmet } from "react-helmet";
 import dayjs from "dayjs";
 import Layout from "../components/Layout";
 
@@ -24,6 +25,12 @@ const Blog = (props) => {
   return (
     <Layout>
       <div className="blog-single container sm">
+
+        <Helmet>
+          <title>{props.data.markdownRemark.frontmatter.title}</title>
+          <meta name="description" content={props.data.markdownRemark.frontmatter.description} />
+        </Helmet>
+
         <header>
           <h1 className="title">
             {props.data.markdownRemark.frontmatter.title}
