@@ -1,5 +1,6 @@
 ---
 title: Week 1 Newsletter
+description: A week about TypeScript and Vercel.
 date: 2020-08-08
 ---
 
