@@ -1,5 +1,17 @@
 export default [
   {
+    title: "Aha!",
+    desc: "A simple CLI tool to save your awesome aha moments right in your terminal.",
+    source: "https://github.com/peyman3d/aha",
+    tags: ["Node.js", "CLI"],
+  },
+  {
+    title: "Benevis.Online",
+    desc: "An online editor to write and share your contents with the support of Markdown and RTL.",
+    source: "https://github.com/p3yman/benevis.online",
+    tags: ["React", "Firebase", "Serverless Functions"],
+  },
+  {
     title: "Laravel Share",
     desc:
       "With Laravel Share you can share any data through a request to use later. You should consider it as an array that are available everywhere. I mean EVERYWHERE! From Service Provider to routes, middlewares, controllers and views.",
