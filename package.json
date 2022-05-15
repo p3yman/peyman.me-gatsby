@@ -4,6 +4,7 @@
   "description": "Peyman.me website",
   "version": "0.1.0",
   "license": "MIT",
+  "engines": { "node": ">=12.0.0" },
   "scripts": {
     "build": "gatsby build",
     "deploy": "gatsby build && gh-pages -d public -r https://github.com/p3yman/p3yman.github.io.git -b master",
