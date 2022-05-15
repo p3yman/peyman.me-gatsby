@@ -12,7 +12,7 @@ import PartWorks from "../components/Works";
 const Index = () => (
   <Layout>
     <Helmet titleTemplate="%s | Front-End Developer">
-      <title>Peyman eskandari</title>
+      <title>Peyman Eskandari</title>
     </Helmet>
 
     <div className="container sm">
