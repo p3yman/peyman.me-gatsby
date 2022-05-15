@@ -1,4 +1,9 @@
-export default [
+const experiences = [
+  {
+    title: "Rebilly",
+    time: "December 2020 - Present",
+    desc: "Senior Front-End Developer",
+  },
   {
     title: "YasnaTeam",
     time: "August 2018 - September 2020",
@@ -24,4 +29,6 @@ export default [
     time: "June 2008 – September 2012",
     desc: "Advertising Graphic Designer",
   },
-]
+];
+
+export default experiences;
