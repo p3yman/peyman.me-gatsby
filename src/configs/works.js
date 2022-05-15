@@ -1,4 +1,4 @@
-export default [
+const works = [
   {
     title: "Aha!",
     desc: "A simple CLI tool to save your awesome aha moments right in your terminal.",
@@ -38,4 +38,6 @@ export default [
     source: "https://github.com/peyman3d/frontier",
     tags: ["Gulp.js"],
   },
-]
+];
+
+export default works;
