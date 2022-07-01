@@ -1,6 +1,7 @@
 {
   "redirects": [
     { "source": "/vercel-redirects", "destination": "/blog/url-shortener-using-vercel-redirects" },
-    { "source": "/gh", "destination": "https://github.com/p3yman" }
+    { "source": "/gh", "destination": "https://github.com/p3yman" },
+    { "source": "/letgo", "destination": "https://www.letgo.com/en-tr/u/azita_cd2b2e36-be94-4ece-bbdb-4458369fab99" }
   ]
 }
