@@ -1,7 +1,12 @@
 const experiences = [
   {
+    title: "Instruqt",
+    time: "Auguest 2022 - Present",
+    desc: "Senior Front-End Developer",
+  },
+  {
     title: "Rebilly",
-    time: "December 2020 - Present",
+    time: "December 2020 - July 2022",
     desc: "Senior Front-End Developer",
   },
   {
