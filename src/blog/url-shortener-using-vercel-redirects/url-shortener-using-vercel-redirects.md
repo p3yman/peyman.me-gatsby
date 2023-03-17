@@ -3,9 +3,8 @@ title: Create a simple URL Shortener for your website using Vercel
 date: 2020-10-17
 description: URLs could be long. Very long. Learn how to create a simple URL Shortener for your website using Vercel redirects feature.
 tags: vercel, cli, redirects, deploy
+cover: cover.jpg
 ---
-
-![Create a simple URL Shortener for your website using Vercel](./cover.jpg)
 
 URLs could be long. Very long. When you have a blog, you try to create the URLs with meaningful sentences like `working-with-new-suspense-system-in-react-17`. It actually is a good title for the SEO matters but it's a real bummer to share. It's way too long to be transferred easily and quite ugly in full address:
 

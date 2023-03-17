@@ -3,9 +3,8 @@ title: "Acing Your GitHub Game: A Guide for Developers on the Job Hunt"
 date: 2023-03-02
 description: Discover how to optimize your GitHub profile for job hunting success with this comprehensive guide. Learn the best practices for showcasing your work, contributing to open-source projects, and highlighting your skills to impress potential employers.
 tags: GitHub, Developers, Job Hunt, Open-source, Profile Optimization, Software Development, Programming, Coding, Repositories, Career Advice, Technical Skills, Soft Skills, README, Networking, Portfolio
+cover: cover.jpg
 ---
-
-![Acing Your GitHub Game: A Comprehensive Guide for Developers on the Job Hunt](./cover.jpg)
 
 Hey there, fellow developers! As a front-end developer myself, I know how challenging it can be to navigate the job market and stand out among the sea of talented candidates. One of the most critical aspects of your online presence is your GitHub profile. It's like your digital portfolio, showcasing your skills, projects, and expertise to potential employers. In this guide, I'll share my top tips for acing your GitHub game and creating a profile that impresses recruiters and hiring managers alike. So, let's dive in!
 

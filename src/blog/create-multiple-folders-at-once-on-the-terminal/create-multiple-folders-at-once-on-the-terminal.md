@@ -3,10 +3,8 @@ title: Create multiple folders at once on the terminal
 date: 2020-08-08
 description: Sometimes it's hard to make multiple folders on a target folder. This is a simple trick to make it as fast as it can be.
 tags: tips, tricks, terminal, cli
-cover_image: https://images.unsplash.com/photo-1544396821-4dd40b938ad3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1053&q=80
+cover: cover.jpeg
 ---
-
-![Create multiple folders at once on the terminal](./cover.jpeg)
 
 I think you are familiar with the problem. You start a new project and to make the structure you should do something like this:
 

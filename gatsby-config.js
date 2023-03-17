@@ -32,6 +32,8 @@ module.exports = {
         defer: false,
       },
     },
+    "gatsby-plugin-sharp",
+    "gatsby-transformer-sharp",
     {
       resolve: "gatsby-transformer-remark",
       options: {
@@ -86,6 +88,7 @@ module.exports = {
         ],
       },
     },
+    "gatsby-plugin-image",
     {
       resolve: "gatsby-source-filesystem",
       options: {
@@ -100,7 +103,6 @@ module.exports = {
         path: `${__dirname}/src/newsletter/`,
       },
     },
-    "gatsby-plugin-sharp",
   ],
 
   siteMetadata: {
