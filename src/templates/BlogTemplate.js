@@ -58,6 +58,7 @@ const Blog = (props) => {
         {coverSrc && <meta property="og:image" content={coverSrc} />}
         <meta property="og:type" content="article" />
         <meta property="og:url" content={`${props.data.site.siteMetadata.siteUrl}${location.pathname}`} />
+        <link rel="canonical" href={`${props.data.site.siteMetadata.siteUrl}${location.pathname}`}></link>
 
         {/* Twitter Card tags */}
         <meta name="twitter:card" content="summary_large_image" />
