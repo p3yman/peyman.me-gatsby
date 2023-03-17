@@ -3,9 +3,8 @@ title: Learn fundamentals, there always will be another framework!
 date: 2020-08-12
 description: An alternative to all the crash courses.
 tags: developer, career, work, webdev
+cover: cover.jpg
 ---
-
-![Learn fundamentals, there always will be another framework!](./cover.jpg)
 
 Maybe 15-20 years ago, there was an eagerness to search for new technologies or tools, and sometimes there was a big gap between finding new things.
 

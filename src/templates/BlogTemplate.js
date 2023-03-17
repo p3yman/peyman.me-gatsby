@@ -3,6 +3,7 @@ import { graphql } from "gatsby";
 import { Helmet } from "react-helmet";
 import dayjs from "dayjs";
 import Layout from "../components/Layout";
+import { GatsbyImage, getImage, getSrc } from "gatsby-plugin-image";
 
 export const query = graphql`
   query($slug: String!) {
@@ -11,6 +12,11 @@ export const query = graphql`
         title
         date
         description
+        cover {
+          childImageSharp {
+            gatsbyImageData(width: 720)
+          }
+        }
       }
       html
       timeToRead
@@ -24,7 +30,13 @@ const Blog = (props) => {
   );
 
   const post = props.data.markdownRemark;
-  const { title, description, image } = post.frontmatter;
+  const { title, description, cover } = post.frontmatter;
+
+  const coverImg = cover ? getImage(cover) : null;
+  const coverSrc = cover ? getSrc(cover) : null;
+
+  console.log({ coverImg });
+  console.log({ coverSrc });
 
   return (
     <Layout>
@@ -33,19 +45,20 @@ const Blog = (props) => {
       <Helmet>
         {/* Basic meta tags */}
         <title>{title}</title>
+        {coverSrc && <meta name="image" content={coverSrc} />}
         <meta name="description" content={description} />
 
         {/* Open Graph (OG) tags for LinkedIn */}
         <meta property="og:title" content={title} />
         <meta property="og:description" content={description} />
-        <meta property="og:image" content={image} />
+        {coverSrc && <meta property="og:image" content={coverSrc} />}
         <meta property="og:type" content="article" />
 
         {/* Twitter Card tags */}
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content={title} />
         <meta name="twitter:description" content={description} />
-        <meta name="twitter:image" content={image} />
+        {coverSrc && <meta name="twitter:image" content={coverSrc} />}
       </Helmet>
 
         <header>
@@ -60,6 +73,7 @@ const Blog = (props) => {
             </div>
           </div>
         </header>
+        {coverImg && <GatsbyImage className="blog-cover" image={coverImg} alt={props.data.markdownRemark.frontmatter.title} />}
         <div
           className="content"
           dangerouslySetInnerHTML={{
