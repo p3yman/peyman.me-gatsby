@@ -1,7 +1,7 @@
 import React from "react";
 import Resume from "./../assets/files/Peyman-Eskandari-Resume.pdf";
 
-export default () => (
+const Hero = () => (
   <div id="hero">
     <h1>
       Hi, I’m <b>Peyman</b>, a front-end <span>{`<developer />`}</span> focused
@@ -22,3 +22,5 @@ export default () => (
     </div>
   </div>
 );
+
+export default Hero;

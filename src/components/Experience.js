@@ -2,7 +2,7 @@ import React from "react"
 import ExperienceItem from "./ExperienceItem"
 import experiences from "../configs/experiences"
 
-export default () => (
+const Experience = () => (
   <div className="section">
     <div className="title">EXPERIENCE</div>
     <div className="content experiences">
@@ -11,4 +11,6 @@ export default () => (
       ))}
     </div>
   </div>
-)
+);
+
+export default Experience;

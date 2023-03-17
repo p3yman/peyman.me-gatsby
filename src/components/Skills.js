@@ -1,6 +1,6 @@
 import React from "react";
 
-export default () => (
+const Skills = () => (
   <div className="section">
     <div className="title">SKILLS</div>
     <div className="content">
@@ -34,3 +34,5 @@ export default () => (
     </div>
   </div>
 );
+
+export default Skills;

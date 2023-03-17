@@ -1,6 +1,6 @@
 import React from "react"
 
-export default () => (
+const About = () => (
   <div className="section">
     <div className="title">ABOUT</div>
     <div className="content about">
@@ -11,4 +11,6 @@ export default () => (
       </p>
     </div>
   </div>
-)
+);
+
+export default About;

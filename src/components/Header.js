@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "gatsby";
 import Logo from "./../assets/images/logo.svg";
 
-export default () => (
+const Header = () => (
   <header id="header">
     <div className="container sm">
       <div id="header-content">
@@ -55,3 +55,5 @@ export default () => (
     </div>
   </header>
 );
+
+export default Header;

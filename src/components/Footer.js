@@ -1,6 +1,6 @@
 import React from "react";
 
-export default () => (
+const Footer = () => (
   <div className="container sm">
     <div id="footer">
       <div className="copyright">
@@ -15,3 +15,5 @@ export default () => (
     </div>
   </div>
 );
+
+export default Footer;

@@ -2,7 +2,7 @@ import React from "react"
 import WorkItem from "./WorkItem"
 import works from "../configs/works"
 
-export default () => (
+const Works = () => (
   <div className="section">
     <div className="title">WORKS</div>
     <div className="content works">
@@ -11,4 +11,6 @@ export default () => (
       ))}
     </div>
   </div>
-)
+);
+
+export default Works;
