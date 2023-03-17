@@ -10,6 +10,7 @@ export const query = graphql`
       frontmatter {
         title
         date
+        description
       }
       html
       timeToRead
@@ -22,14 +23,30 @@ const Blog = (props) => {
     "MMMM DD, YYYY"
   );
 
+  const post = props.data.markdownRemark;
+  const { title, description, image } = post.frontmatter;
+
   return (
     <Layout>
       <div className="blog-single container sm">
 
-        <Helmet>
-          <title>{props.data.markdownRemark.frontmatter.title}</title>
-          <meta name="description" content={props.data.markdownRemark.frontmatter.description} />
-        </Helmet>
+      <Helmet>
+        {/* Basic meta tags */}
+        <title>{title}</title>
+        <meta name="description" content={description} />
+
+        {/* Open Graph (OG) tags for LinkedIn */}
+        <meta property="og:title" content={title} />
+        <meta property="og:description" content={description} />
+        <meta property="og:image" content={image} />
+        <meta property="og:type" content="article" />
+
+        {/* Twitter Card tags */}
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content={title} />
+        <meta name="twitter:description" content={description} />
+        <meta name="twitter:image" content={image} />
+      </Helmet>
 
         <header>
           <h1 className="title">

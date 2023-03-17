@@ -58,3 +58,18 @@ module.exports.createPages = async ({ graphql, actions }) => {
     });
   });
 };
+
+module.exports.createSchemaCustomization = ({ actions }) => {
+  const { createTypes } = actions
+  const typeDefs = `
+    type MarkdownRemarkFrontmatter {
+      title: String!
+      description: String
+    }
+
+    type MarkdownRemark implements Node {
+      frontmatter: MarkdownRemarkFrontmatter
+    }
+  `
+  createTypes(typeDefs)
+}
