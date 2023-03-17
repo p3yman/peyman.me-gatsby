@@ -5,25 +5,26 @@ import dayjs from "dayjs";
 import Layout from "../components/Layout";
 
 const Newsletter = () => {
-  const posts = useStaticQuery(graphql`
-    query {
-      allMarkdownRemark(filter: {fields: {type: {eq: "newsletter"}}}, sort: { fields: [frontmatter___date], order: DESC }) {
-        edges {
-          node {
-            html
-            frontmatter {
-              title
-              date
-              description
-            }
-            fields {
-              slug
-            }
-          }
+  const posts = useStaticQuery(graphql`{
+  allMarkdownRemark(
+    filter: {fields: {type: {eq: "newsletter"}}}
+    sort: {frontmatter: {date: DESC}}
+  ) {
+    edges {
+      node {
+        html
+        frontmatter {
+          title
+          date
+          description
+        }
+        fields {
+          slug
         }
       }
     }
-  `);
+  }
+}`);
 
   const renderedPosts = posts.allMarkdownRemark.edges.map((edge) => {
     const date = dayjs(edge.node.frontmatter.date).format("MMMM DD, YYYY");

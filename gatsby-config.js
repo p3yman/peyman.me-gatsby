@@ -5,6 +5,7 @@
  */
 
 module.exports = {
+  trailingSlash: `always`,
   plugins: [
     "gatsby-plugin-robots-txt",
     "gatsby-plugin-react-helmet",
