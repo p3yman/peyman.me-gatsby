@@ -18,6 +18,7 @@
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
   },
   "dependencies": {
+    "@vercel/gatsby-plugin-vercel-analytics": "^1.0.8",
     "dayjs": "^1.11.7",
     "gatsby": "^5.7.0",
     "gatsby-plugin-google-analytics": "^5.7.0",
@@ -29,7 +30,6 @@
     "gatsby-plugin-sass": "^6.7.0",
     "gatsby-plugin-sharp": "^5.7.0",
     "gatsby-plugin-sitemap": "^6.7.0",
-    "gatsby-plugin-vercel": "^1.0.4",
     "gatsby-remark-images": "^7.7.0",
     "gatsby-remark-prismjs": "^7.7.0",
     "gatsby-remark-relative-images": "^2.0.2",

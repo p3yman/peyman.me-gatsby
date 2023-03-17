@@ -2586,6 +2586,14 @@
     "@typescript-eslint/types" "4.33.0"
     eslint-visitor-keys "^2.0.0"
 
+"@vercel/gatsby-plugin-vercel-analytics@^1.0.8":
+  version "1.0.8"
+  resolved "https://registry.yarnpkg.com/@vercel/gatsby-plugin-vercel-analytics/-/gatsby-plugin-vercel-analytics-1.0.8.tgz#3779132cf1eb8d4ef00806a913249b65c4b5edf5"
+  integrity sha512-EL5xH3KOtAwzLc50NA2Df5BQwIV9tu8QBIG0unSTUtOpIaqqnOMBZT86DxadsAniUs7xYRcaeXOkQog/PbpWDw==
+  dependencies:
+    "@babel/runtime" "7.12.1"
+    web-vitals "0.2.4"
+
 "@vercel/webpack-asset-relocator-loader@^1.7.3":
   version "1.7.3"
   resolved "https://registry.yarnpkg.com/@vercel/webpack-asset-relocator-loader/-/webpack-asset-relocator-loader-1.7.3.tgz#e65ca1fd9feb045039788f9b4710e5acc84b01b0"
@@ -6178,14 +6186,6 @@ gatsby-plugin-utils@^4.7.0:
     import-from "^4.0.0"
     joi "^17.7.0"
     mime "^3.0.0"
-
-gatsby-plugin-vercel@^1.0.4:
-  version "1.0.4"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-vercel/-/gatsby-plugin-vercel-1.0.4.tgz#bd46504f8f0a9acb0990c5035830b01525316dad"
-  integrity sha512-sqDAeBGOj68/FhgPh556n6TM2oCeD/dKafhaXKS1KQHtx+ro51CZ1FpqMcYDtPqm9MUnT43HkQnIGw2z6CRyPQ==
-  dependencies:
-    "@babel/runtime" "7.12.1"
-    web-vitals "0.2.4"
 
 gatsby-react-router-scroll@^6.7.0:
   version "6.7.0"

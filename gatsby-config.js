@@ -9,7 +9,7 @@ module.exports = {
   plugins: [
     "gatsby-plugin-robots-txt",
     "gatsby-plugin-react-helmet",
-    "gatsby-plugin-vercel",
+    "@vercel/gatsby-plugin-vercel-analytics",
     {
       resolve: `gatsby-plugin-react-helmet-canonical-urls`,
       options: {
