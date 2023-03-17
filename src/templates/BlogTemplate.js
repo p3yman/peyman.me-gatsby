@@ -21,6 +21,11 @@ export const query = graphql`
       html
       timeToRead
     }
+    site {
+      siteMetadata {
+        siteUrl
+      }
+    }
   }
 `;
 
@@ -32,11 +37,10 @@ const Blog = (props) => {
   const post = props.data.markdownRemark;
   const { title, description, cover } = post.frontmatter;
 
+  console.log(props.data.site);
+
   const coverImg = cover ? getImage(cover) : null;
   const coverSrc = cover ? getSrc(cover) : null;
-
-  console.log({ coverImg });
-  console.log({ coverSrc });
 
   return (
     <Layout>
@@ -53,6 +57,7 @@ const Blog = (props) => {
         <meta property="og:description" content={description} />
         {coverSrc && <meta property="og:image" content={coverSrc} />}
         <meta property="og:type" content="article" />
+        <meta property="og:url" content={`${props.data.site.siteMetadata.siteUrl}${location.pathname}`} />
 
         {/* Twitter Card tags */}
         <meta name="twitter:card" content="summary_large_image" />

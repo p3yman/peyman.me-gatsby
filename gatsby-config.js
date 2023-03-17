@@ -9,6 +9,12 @@ module.exports = {
   plugins: [
     "gatsby-plugin-robots-txt",
     "gatsby-plugin-react-helmet",
+    {
+      resolve: `gatsby-plugin-react-helmet-canonical-urls`,
+      options: {
+        siteUrl: `https://peyman.me`,
+      },
+    },
     "gatsby-plugin-sitemap",
     "gatsby-plugin-sass",
     {
