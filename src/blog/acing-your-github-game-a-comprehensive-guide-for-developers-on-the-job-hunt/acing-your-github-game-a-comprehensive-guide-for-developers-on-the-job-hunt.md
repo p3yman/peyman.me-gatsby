@@ -1,5 +1,5 @@
 ---
-title: "Acing Your GitHub Game: A Comprehensive Guide for Developers on the Job Hunt"
+title: "Acing Your GitHub Game: A Guide for Developers on the Job Hunt"
 date: 2023-03-02
 description: Discover how to optimize your GitHub profile for job hunting success with this comprehensive guide. Learn the best practices for showcasing your work, contributing to open-source projects, and highlighting your skills to impress potential employers.
 tags: GitHub, Developers, Job Hunt, Open-source, Profile Optimization, Software Development, Programming, Coding, Repositories, Career Advice, Technical Skills, Soft Skills, README, Networking, Portfolio
