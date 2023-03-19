@@ -65,5 +65,5 @@ People exchange special greetings during Nowruz, such as "Eid-eh shoma mobarak,"
 
 ---
 
-As we get ready to celebrate Nowruz this year, remember that this holiday is all about cherishing our loved ones, being thankful for the good stuff in our lives, and looking forward to fresh starts in the new year. So, no matter where you're from or what your background is, let the spirit of renewal, love, and unity that Nowruz brings inspire you. Here's to hoping that the year 1402 is filled with loads of happiness and success for everyone reading this, and may the magic of spring bring joy to all our lives. Nowruz Mobaarak!
+As we get ready to celebrate Nowruz this year, remember that this holiday is all about cherishing our loved ones, being thankful for the good stuff in our lives, and looking forward to fresh starts in the new year. So, no matter where you're from or what your background is, let the spirit of renewal, love, and unity that Nowruz brings inspire you. Here's to hoping that the year 1402 is filled with loads of happiness and success for everyone reading this, and may the magic of spring bring joy to all our lives. Nowruz Mobaarak ❤️!
  
