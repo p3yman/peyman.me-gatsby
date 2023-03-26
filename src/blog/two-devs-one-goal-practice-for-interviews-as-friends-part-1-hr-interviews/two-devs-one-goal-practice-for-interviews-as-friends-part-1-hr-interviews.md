@@ -55,7 +55,7 @@ In job interviews, it's crucial to have a few success stories up your sleeve. Th
 ### Examples of HR interviews questions (and example answers)
 
 - [Everything You Need to Know About Answering Behavioral Interview Questions](https://www.themuse.com/advice/30-behavioral-interview-questions-you-should-be-ready-to-answer)
-- [43 Interview Questions for Developers (With Example Answers)](https://www.indeed.com/career-advice/interviewing/common-situational-interview-questions-and-answershttps://www.indeed.com/career-advice/interviewing/interview-questions-for-developers)
+- [43 Interview Questions for Developers (With Example Answers)](https://www.indeed.com/career-advice/interviewing/interview-questions-for-developers)
 - [https://www.glassdoor.com/blog/common-interview-questions/](https://www.glassdoor.com/blog/common-interview-questions/)
 - [100 Interview Questions](https://www.monster.com/career-advice/article/100-potential-interview-questions)
 
