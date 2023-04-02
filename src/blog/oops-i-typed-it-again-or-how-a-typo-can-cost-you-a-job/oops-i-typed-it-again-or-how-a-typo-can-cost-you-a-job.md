@@ -45,4 +45,6 @@ Lastly, continue to learn and improve your English skills. The better your Engli
 - Take English classes or participate in language exchange programs to improve your skills.
 - Read articles, books, and other materials in English to expand your vocabulary and improve your understanding of grammar and punctuation rules.
 
+---
+
 Remember, a typo might seem like a small mistake, but it can have a big impact on your job prospects. By paying attention to detail and following these tips, you can ensure that your resume is polished, professional, and typo-free. Don't let a simple error stand between you and your dream job in the tech industry.
