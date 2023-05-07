@@ -3,7 +3,7 @@ title: "The Clear Winner: How Side-Products Crush Side-Projects in the Race for 
 date: 2023-05-05
 description: Introduce the concept of side-products and how they can better showcase a developer's skills and professionalism comparing to side-projects.
 tags: first business, translating manuals, electronic devices, MP3 technology, father and child business, user experience, Persian translation, entrepreneurship
-cover: cover.jpeg
+cover: cover.jpg
 ---
 
 Over the years, I've had the chance to look through countless resumes and portfolios. I can't help but notice that many side-projects listed in those resumes aren't as polished as they could be. Incomplete features, buggy code, and lack of attention to detail - we've all seen these issues, and they might just be holding you back from landing your dream job. Now, imagine someone in charge of hiring comes across your resume and clicks on your side-project, only to find it incomplete. This experience may leave them questioning your ability to deliver quality work or your attention to details. While you might possess the necessary skills, an incomplete side-project can cast doubt on your commitment and professionalism. As a result, you might miss out on the opportunity to move forward in the hiring process, losing out to other candidates with more polished and impressive portfolios.
