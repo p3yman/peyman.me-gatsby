@@ -21,7 +21,7 @@
     "@vercel/analytics": "^0.1.11",
     "@vercel/gatsby-plugin-vercel-analytics": "^1.0.8",
     "dayjs": "^1.11.7",
-    "gatsby": "^5.7.0",
+    "gatsby": "^5.9.1",
     "gatsby-plugin-google-analytics": "^5.7.0",
     "gatsby-plugin-image": "^3.7.0",
     "gatsby-plugin-manifest": "^5.7.0",
